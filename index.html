@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulir Daftar Ulang ALWA</title>
+  <link rel="icon" href="https://iili.io/K8vg4Fs.jpg" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #eee;
+      overflow: hidden; /* Mencegah scroll ganda */
+    }
+
+    .iframe-container {
+      width: 100%;
+      height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
+      overflow: hidden;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe
+      id="app"
+      src="https://script.google.com/macros/s/AKfycbzePbKJktRc5XzPdiUHKnaSUsQRpAjvJX49A69YWbnIUtt6F748OhwoN-P-FC98K7gf/exec"
+      scrolling="yes"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allow="fullscreen; camera; microphone; display-capture; geolocation;">
+    </iframe>
+  </div>
+</body>
+</html>
